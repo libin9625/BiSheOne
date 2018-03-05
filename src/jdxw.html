@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head> @include('./header.html', { "title": "焦点新闻" }) </head>
+
+<script src="dist/js/header.js"></script>
+<script src="dist/js/lib/jquery/jquery-1.11.3.min.js"></script>
+<script src="dist/js/menu.js"></script>
+<script src="dist/js/bdtxk.js"></script>
+<script src="dist/js/slide.js"></script>
+<body>
+    <!-- top start -->
+    <div class="top-bg w100">
+        <div class="top w1000">
+            <div class="logo fl"><!--#begineditable viewid="199805" name="LOGO"-->
+            <!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+            <a href="" title="兰州理工大学幼儿园">
+                <img src="dist/img/logo.png" width="320" height="240" border="0" alt="兰州理工大学幼儿园" title="兰州理工大学幼儿园">
+            </a><!--#endeditable-->
+            </div>
+            <div class="top-r fr">
+                <div class="top-a"><!--#begineditable viewid="194642" name="主页|收藏"-->
+                    <a onclick="javascript:dosuba194642a();" href="#" style="TEXT-DECORATION: none">
+                        <span style="TEXT-DECORATION: none;COLOR: #fff;FONT-SIZE: 12px">添加收藏</span>
+                    </a>
+                    <a href="javascript:setHomepagea194642a()" style="TEXT-DECORATION: none">
+                        <span style="COLOR: #fff;FONT-SIZE: 12px">设为主页</span>
+                    </a><!--#endeditable-->
+                </div>
+                <div class="form"><!--#begineditable viewid="194643" name="全文检索"-->
+                    <form action="zzzsearch.jsp?wbtreeid=1042" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()" style="display: inline">
+                        <input type="hidden" id="lucenenewssearchkeyword194643" name="lucenenewssearchkeyword" value="">
+                        <input type="hidden" id="_lucenesearchtype194643" name="_lucenesearchtype" value="1">
+                        <input type="hidden" id="searchScope194643" name="searchScope" value="0">
+                        <div style="margin:0px;display:inline;font-family:宋体;font-size:12px">
+                            <input class="search-left fl" name="showkeycode" id="showkeycode194643">
+                            <input class="search-right fr" type="image" src="dist/img/so-bt.png">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top end -->
+
+    <!-- nav start -->
+    <div id="nav" class="nav-bg w100">
+        <div class="nav">
+            <ul class="navbar"><!--#begineditable viewid="194644" name="网站导航"-->
+                <li>
+                    <div class="nav-hh">
+                        <a href="index.html" title="首页">
+                            <div class="nav-img bi1">
+                                <img src="dist/img/i0.png">
+                            </div>
+                            <div class="nav-h">首页</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="jdxw.html" title="焦点新闻">
+                            <div class="nav-img bi2">
+                                <img src="dist/img/i1.png">
+                            </div>
+                            <div class="nav-h">焦点新闻</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="ysjj.html" title="园所简介">
+                            <div class="nav-img bi3">
+                                <img src="dist/img/i2.png">
+                            </div>
+                            <div class="nav-h">园所简介</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="ysjj/jbgk.html" title="基本概况">基本概况</a> </li>
+                            <li><a href="ysjj/jgsz.html" title="机构设置">机构设置</a> </li>
+                            <li><a href="ysjj/yfjs.html" title="园风建设">园风建设</a> </li>
+                            <li><a href="ysjj/jyln.html" title="教育理念">教育理念</a> </li>
+                            <li><a href="ysjj/szll.html" title="师资力量">师资力量</a> </li>
+                            <li><a href="ysjj/yshj.html" title="园所环境">园所环境</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="bybj.html" title="保育保教">
+                            <div class="nav-img bi4">
+                                <img src="dist/img/i3.png">
+                            </div>
+                            <div class="nav-h">保育保教</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="bybj/yeyrshzxap.html" title="幼儿一日生活作息安排">幼儿一日生活作息安排</a> </li>
+                            <li><a href="bybj/ybkcjjky.html" title="园本课程及教科研">园本课程及教科研</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="wsbj.html" title="卫生保健">
+                            <div class="nav-img bi5">
+                                <img src="dist/img/i4.png">
+                            </div>
+                            <div class="nav-h">卫生保健</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="wsbj/rcgl.html" title="日常管理">日常管理</a> </li>
+                            <li><a href="wsbj/bjxc.html" title="保健宣传">保健宣传</a> </li>
+                            <li><a href="wsbj/yeys.html" title="幼儿饮食">幼儿饮食</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="jygy.html" title="家园共育">
+                            <div class="nav-img bi6">
+                                <img src="dist/img/i5.png">
+                            </div>
+                            <div class="nav-h">家园共育</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="jygy/yeyyx.html" title="幼儿园邮箱">幼儿园邮箱</a> </li>
+                            <li><a href="jygy/gbmdh.html" title="各部门电话">各部门电话</a> </li>
+                            <li><a href="jygy/jzxx.html" title="家长学校">家长学校</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="zjjd.html" title="早教基地">
+                            <div class="nav-img bi7">
+                                <img src="dist/img/i6.png">
+                            </div>
+                            <div class="nav-h">早教基地</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                    <ul>
+                        <li><a href="zjjd/jdjs.html" title="基地介绍">基地介绍</a> </li>
+                        <li><a href="zjjd/kxye.html" title="科学育儿">科学育儿</a> </li>
+                        <li><a href="zjjd/sqhd.html" title="社区活动">社区活动</a> </li>
+                    </ul></div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="yezs.html" title="幼儿招生">
+                            <div class="nav-img bi8">
+                                <img src="dist/img/i7.png">
+                            </div>
+                            <div class="nav-h">幼儿招生</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="yezs/ryzs.html" title="入园招生">入园招生</a> </li>
+                            <li><a href="yezs/zjzs.html" title="早教招生">早教招生</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav-hh">
+                        <a href="jzxz.html" title="家长须知">
+                            <div class="nav-img bi9">
+                                <img src="dist/img/i8.png">
+                            </div>
+                            <div class="nav-h">家长须知</div>
+                        </a>
+                    </div>
+                    <div class="nav-son">
+                        <ul>
+                            <li><a href="jzxz/xsryjzxz1.html" title="新生入园家长须知">新生入园家长须知</a> </li>
+                            <li><a href="jzxz/qzzjbjzxz.html" title="求真早教班家长须知">求真早教班家长须知</a> </li>
+                            <li><a href="jzxz/jfxz.html" title="缴费须知">缴费须知</a> </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!-- banner -->
+    <div class="banner w100">
+        <img src="dist/img/xt1.png" width="1920" height="90">    
+        <div class="live">
+            <div class="live1">
+                <span>当前位置：</span>
+                <a href="index.html">首页</a>
+                <span>></span>
+                <a href="jdxw.html">焦点新闻</a>
+                <span>></span>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <!-- <script language="javascript" src="system/resource/js/dynclicks.js"></script> -->
+    <script language="javascript" src="dist/js/statpagedown.js"></script>
+    <div class="cen-bg w100">
+        <div class="center w1000">
+            <ul class="list-box clearfix">
+                <li id="line_u5_0">
+                    <a href="info/1182/2843.html" target="_blank" title="北航幼儿园获评北京市餐饮服务单位食品安全量化分级最高等级（A级三星）">
+                        <div class="box-i">
+                            <img src="dist/img/CC518ACD2A50E7379C95D564B1C_7F63D3E5_252DA.jpg" />
+                            <span></span>
+                        </div>
+                        <div class="box-h">北航幼儿园获评北京市餐饮服务单位食品安全量化分级最高等级（A级三星）</div>
+                        <div class="box-con">2016年11月23日，北京市食品药品监督管理局餐饮处闫强等一行专家对幼儿园食堂...</div>
+                        <div class="box-dd">发布时间：2017年03月14日</div>
+                    </a>
+                </li>
+                <li id="line_u5_1">
+                    <a href="info/1182/2844.html" target="_blank" title="北航幼儿园作为卫生保健示范园面向全市开放观摩">
+                        <div class="box-i">
+                            <img src="dist/img/99B897D9C4DF5409C0C48CC9E2E_D8AA93FD_E6BA.jpg" />
+                            <span></span>
+                        </div>
+                        <div class="box-h">北航幼儿园作为卫生保健示范园面向全市开放观摩</div>
+                        <div class="box-con">‍2016年10月21日，北航幼儿园作为2016年全市托幼机构卫生保健示范单位，面向...</div>
+                        <div class="box-dd">发布时间：2017年03月14日</div>
+                    </a>
+                </li>
+                <li id="line_u5_2">
+                    <a href="info/1182/2845.html" target="_blank" title="北航幼儿园顺利召开“十三五”课题开题论证会">
+                        <div class="box-i"><img src="dist/img/59CE3F4B930435EE7F0B88540FA_22633A9D_D80C.jpg" /><span></span></div>
+                        <div class="box-h">北航幼儿园顺利召开“十三五”课题开题论证会</div>
+                        <div class="box-con">2016年12月22日下午，北航幼儿园顺利召开中国教育学会“十三五”课题开题论证...</div>
+                        <div class="box-dd">发布时间：2017年03月11日</div>
+                    </a>
+                </li>
+            </ul>
+            <div align="center">
+                <input type="hidden" name="actiontype" value="">
+                <input type="hidden" name="urltype" value="tree.TreeTempUrl">
+                <input type="hidden" name="_scode_" value="1517195738241">
+                <input type="hidden" name="outFlag" value="false">
+                <input type="hidden" name="wbtreeid" value="1182">
+                <script language="javascript" src="dist/js/gotopage.js"></script>
+                <table cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td colspan="0">
+                            <table cellspacing="0" class="headStyle49g54ebdv1" width="100%" cellpadding="1">
+                                <tr valign="middle">
+                                    <td nowrap align="left" width="1%" id="fanye194974">共3条&nbsp;&nbsp;1/1&nbsp;</td>
+                                    <td nowrap align="left">
+                                        <div>
+                                            <span class="PrevDisabled">首页</span>
+                                            <span class="PrevDisabled">上页</span>
+                                            <span class="NextDisabled">下页</span>
+                                            <span class="NextDisabled">尾页</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- footer start -->
+    <div class="foot-bg w100">
+        <div class="foot">
+            <span>地址：甘肃省兰州七里河区兰工坪路287号</span>
+            <span>邮编：730050</span>
+            <span>电话：0931-1234567</span>
+            <span>电子邮箱:lzlgdxyey@edu.com</span>
+        </div>
+        <div class="f-txt w1000">
+            <span>兰ICP备XXXXXXX</span>
+            <span>文保网安备案号XXXXXXXXXXX</span>XXXXXXXXXXX
+            <span>建设维护：网络信息中心</span>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!--漂浮快捷块-->
+    <div class="btn">
+        <ul>
+            <!-- <script language="javascript" src="system/resource/js/openlink.js"></script> -->
+            <li>
+                <div class="btn-i"><IMG src="dist/img/c1.png"></div>
+                <a href="http://www.buaa.edu.cn/" title="">兰理官网</a> 
+            </li>
+            <li>
+                <div class="btn-i"><IMG src="dist/img/c2.png"></div>
+                <a href="yezs.html" title="">幼儿招生</a> 
+            </li>
+            <li>    
+                <div class="btn-i"><IMG src="dist/img/c3.png"></div>
+                <a href="bjdt.html" title="">班级动态</a> 
+            </li>
+        </ul>
+        <div class="btn-a">
+            <div class="ewm"></div>
+            <div class="top-bt">
+                <a href="javascript:scroll(0,0)"></a>
+            </div>
+        </div>
+    </div>
+    <!--漂浮快捷块-->
+    <script type="text/javascript">
+        jQuery(".p3-Slide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",autoPage:true, trigger:"click" });
+        jQuery(".slideTxtBox").slide();
+        jQuery(".scrollBox").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+    </script>
+</body>
+</html>
